@@ -1,0 +1,13 @@
+[package]
+name = "mc_proxifier"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.68"
+argh = "0.1.10"
+tokio = { version = "1.0", features = ["full"] }
+tokio-socks = "0.5.1"
+trust-dns-resolver = "0.22.0"
